@@ -1,4 +1,5 @@
 import Ninjas from "./Ninjas";
+import AddNinja from "./AddNinja";
 
 function App() {
     const ninjas = [
@@ -11,6 +12,7 @@ function App() {
       <h1>My first React App</h1>
       <p>Welcome :)</p>
       <Ninjas ninjas={ninjas}/>
+      <AddNinja />
     </div>
   );
 }
